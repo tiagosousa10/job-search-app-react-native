@@ -5,6 +5,7 @@
       "expo-router"
     ],
     "name": "job-search-app-react-native",
-    "slug": "job-search-app-react-native"
+    "slug": "job-search-app-react-native",
+    "newArchEnabled": true
   }
 }
