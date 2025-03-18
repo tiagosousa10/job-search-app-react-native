@@ -32,6 +32,7 @@ const styles = StyleSheet.create({
     flex: 1,
     backgroundColor: "#FE7654",
     height: "100%",
+    padding: SIZES.small,
     justifyContent: "center",
     alignItems: "center",
     marginLeft: SIZES.medium,
