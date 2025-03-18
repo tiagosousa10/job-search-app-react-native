@@ -35,7 +35,9 @@ const JobDetails = () => {
   const [refreshing, setRefreshing] = useState(false);
 
   const onRefresh = useCallback(() => {
-   
+    setRefreshing(true);
+    refetch();
+    setRefreshing(false);
   }, []);
 
 
